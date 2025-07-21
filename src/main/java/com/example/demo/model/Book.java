@@ -31,7 +31,7 @@ public class Book {
     @Column(nullable = false)
     private BigDecimal price;
 
-    public Book () {
+    public Book() {
     }
 
     @Override

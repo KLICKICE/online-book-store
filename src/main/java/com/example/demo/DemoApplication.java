@@ -17,7 +17,7 @@ public class DemoApplication {
     @Bean
     CommandLineRunner commandLineRunner(BookService bookService) {
         return args -> {
-            Book book = new Book();
+            final Book book = new Book();
             book.setTitle("Lost from Light");
             book.setAuthor("Michael Connelly");
             book.setIsbn("9780451524935");
